@@ -1,23 +1,7 @@
 # Go Development and Style Guide
 Jump to:
-* [Development Environment](#development-environment)
 * [Code Style](#code-style)
 * [Useful Links](#useful-links)
-
-## Development Environment
-We recommend Visual Studio Code - it's what we use for this SDK. 
-You can download it [here](https://code.visualstudio.com/download).
-
-### Go Extension
-Install the Go extension for VS Code. 
-
-Set it up to use `golangci-lint`: 
-- Navigate to VS Code's settings.
-- Search for `go.lintTool`.
-- In the Go: Lint Tool dropdown, select `golangci-lint`.
-
-If you are interested in the linters it provides, refer to the [golangci-lint docs](https://golangci-lint.run/).
-It will load the YAML configuration at the root of the project named `.golangci.yml`.
 
 ## Code Style
 In general, we follow the code styles that can be found in the [Useful Links](#useful-links) below.
